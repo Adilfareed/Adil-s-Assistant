@@ -152,4 +152,4 @@ async def ask_medico(request: QueryRequest):
 # ----------------------------------
 @app.get("/")
 def home():
-    return {"message": "Welcome to MEDICO Chat API! Use POST /ask to ask questions."}
+    return {"message": "Welcome to Adil's AI Assistant Chat API! Use POST /ask to ask questions."}
